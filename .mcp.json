@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "cg-survey": {
+      "type": "http",
+      "url": "https://cg-survey-lite.adam-dorrell.workers.dev/mcp",
+      "headers": {
+        "Authorization": "Bearer ${CG_SURVEY_TOKEN}"
+      }
+    }
+  }
+}
